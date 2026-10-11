@@ -1,0 +1,13 @@
+interface:
+  display_name: 文献综述六步法（刘西川）
+  short_description: 依据实证论文写作八讲第四讲，逐步输出卡片、比较表、结构图与综述正文
+  default_prompt: 使用 $write-literature-review，围绕我的研究问题按六个步骤分别输出文献综述成果。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
